@@ -2,8 +2,12 @@ body {
     background-color: blueviolet;
 }
 .container {
+    text-align: center;
     max-width: 75%;
     height: 100vh;
     border: 1px solid white;
     margin: 0 auto;
+    display: grid;
+    grid-template-rows: 20% 60% 80%;
 }
+
